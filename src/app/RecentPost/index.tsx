@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import png1pic from "../../../public/images/10.jpg";
+import png1pic from "@/../public/images/10.jpg";
 import data from "@/../public/recentPost.json";
 
 export default function Post() {

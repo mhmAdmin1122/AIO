@@ -25,6 +25,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+body::-webkit-scrollbar{
+  width: 8px;
+  height: 12px;
+  background: #7c7a7a;
+}
+body::-webkit-scrollbar-thumb{
+  width: 8px;
+  height: 12px;
+  background: linear-gradient(60deg, #111, #2c2c2c, #424242);
+  border-radius: 8px;
+}
 .logo-box img{
   width: 60px !important;
   height: 60px !important;
@@ -57,19 +68,19 @@ body {
 .card-image img{
   border-radius: 8px;
 }
-.sliderRecent-container {
+.sliderRecent-container, .featured-container {
   display: flex !important;
   align-items: center;
   overflow: scroll;
   overflow-y: hidden;
   width: 100%;
 }
-.sliderRecent-container::-webkit-scrollbar{
+.sliderRecent-container::-webkit-scrollbar, .featured-container::-webkit-scrollbar{
   width: 12px;
   height: 10px;
   background: transparent;
 }
-.sliderRecent-container::-webkit-scrollbar-thumb{
+.sliderRecent-container::-webkit-scrollbar-thumb, .featured-container::-webkit-scrollbar-thumb{
   width: 12px;
   height: 10px;
   background: #fff;
