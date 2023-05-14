@@ -10,6 +10,7 @@ export default function PopularCourse() {
       <Image src={pic2} alt="designPic" />
       <div className="main-content feature-course">
         <h1>Feature Course</h1>
+        
       </div>
       <Image src={pic} alt="designPic" />
       </div>

@@ -54,3 +54,25 @@ body {
   z-index: 999;
   left: 36%;
 }
+.card-image img{
+  border-radius: 8px;
+}
+.sliderRecent-container {
+  display: flex !important;
+  align-items: center;
+  overflow: scroll;
+  overflow-y: hidden;
+  width: 100%;
+}
+.sliderRecent-container::-webkit-scrollbar{
+  width: 12px;
+  height: 10px;
+  background: transparent;
+}
+.sliderRecent-container::-webkit-scrollbar-thumb{
+  width: 12px;
+  height: 10px;
+  background: #fff;
+  border-radius: 12px;
+  cursor: pointer;
+}

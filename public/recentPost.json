@@ -1,0 +1,72 @@
+[
+    {
+      "name": "Post 1",
+      "price": 10.99,
+      "description": "This is the first Post.",
+      "category": "Category 1",
+      "image_url": "./images/10.jpg"
+    },
+    {
+      "name": "Post 2",
+      "price": 19.99,
+      "description": "This is the second Post.",
+      "category": "Category 2",
+      "image_url": "./images/11.jpg"
+    },
+    {
+      "name": "Post 3",
+      "price": 15.99,
+      "description": "This is the third Post.",
+      "category": "Category 1",
+      "image_url": "./images/9.jpg"
+    },
+    {
+      "name": "Post 4",
+      "price": 12.49,
+      "description": "This is the fourth Post.",
+      "category": "Category 3",
+      "image_url": "./images/13.jpg"
+    },
+    {
+      "name": "Post 5",
+      "price": 8.99,
+      "description": "This is the fifth Post.",
+      "category": "Category 2",
+      "image_url": "./images/14.jpg"
+    },
+    {
+      "name": "Post 6",
+      "price": 25.99,
+      "description": "This is the sixth Post.",
+      "category": "Category 1",
+      "image_url": "./images/15.jpg"
+    },
+    {
+      "name": "Post 7",
+      "price": 7.99,
+      "description": "This is the seventh Post.",
+      "category": "Category 3",
+      "image_url": "./images/16.jpg"
+    },
+    {
+      "name": "Post 8",
+      "price": 13.99,
+      "description": "This is the eighth Post.",
+      "category": "Category 2",
+      "image_url": "./images/17.jpg"
+    },
+    {
+      "name": "Post 9",
+      "price": 9.99,
+      "description": "This is the ninth Post.",
+      "category": "Category 1",
+      "image_url": "./images/18.jpg"
+    },
+    {
+      "name": "Post 10",
+      "price": 21.49,
+      "description": "This is the tenth Post.",
+      "category": "Category 3",
+      "image_url": "./images/19.jpg"
+    }
+]
