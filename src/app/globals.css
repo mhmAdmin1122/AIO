@@ -28,4 +28,29 @@ body {
 .logo-box img{
   width: 60px !important;
   height: 60px !important;
+  cursor: pointer;
+}
+.navbarTabs{
+  cursor: pointer;
+  color: #fff;
+}
+.recent-post, .featured-post, .feature-container-course{
+  position: relative;
+  width: 100%;
+}
+.recent-post, .featured-post{
+  padding: 18px;
+}
+.recent-post h1, .featured-post h1, .feature-course h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: context-menu;
+}
+.feature-course h1{
+  position: absolute;
+  top: 2rem;
+  z-index: 999;
+  left: 36%;
 }
