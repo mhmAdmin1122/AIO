@@ -1,0 +1,20 @@
+[
+    {
+      "name": "Front-End Development",
+      "price": 10.99,
+      "description": "In this course you learn Front-End development languages set [HTML, CSS, JS, REACT.JS, NEXT.JS, Bootstrap5.1 and much more].....",
+      "image_url": "./images/10.jpg"
+    },
+    {
+      "name": "Back-End Development",
+      "price": 19.99,
+      "description": "In this course you learn Back-End development languages set [Java, C++, Ruby, Node.JS, Python, PHP and much more].....",
+      "image_url": "./images/11.jpg"
+    },
+    {
+      "name": "Full-Stack Development",
+      "price": 55.99,
+      "description": "In this course you learn Full-Stack development languages set [HTML, CSS, JS, REACT.JS, NEXT.JS, Bootstrap5.1 Java, C++, Ruby, Node.JS, Python, PHP and much more].....",
+      "image_url": "./images/9.jpg"
+    }
+]
