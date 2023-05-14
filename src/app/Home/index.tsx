@@ -6,7 +6,6 @@ import Footer from '@/../components/Footer'
 import PopularCourse from '../PopularCourse'
 import OurTeam from '../OurTeam'
 import Testmonials from '../Testmonials'
-
 export default function Home() {
   return (
     <div style={{width: "100%"}}>
