@@ -57,12 +57,18 @@ body::-webkit-scrollbar-thumb {
 }
 .recent-post h1,
 .featured-post h1,
-.feature-course h1 {
+.feature-course h1, .Testmonials {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   cursor: context-menu;
+}
+.Testmonials{
+  color: #111;
+}
+.testmonial-box{
+  border-bottom: 2px solid #cacaca;
 }
 .feature-course h1 {
   position: absolute;
@@ -96,3 +102,25 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
+.quoteMark img{
+  width: 60px;
+  height: 70px;
+}
+.CARDTESTMONIAL{
+  border-radius: 41% 59% 47% 53% / 70% 34% 66% 30% !important;
+  width: 400px;
+  height: 300px !important;
+  background: #ad5389;
+  background: -webkit-linear-gradient(to right,
+      #3c1053,
+      #ad5389);
+  background: linear-gradient(to right,
+      #3c1053,
+      #ad5389);
+}
+.testmonialWriter{
+  font-size: 14px;
+  color: #fff;
+  width: 66%;
+  text-align: justify;
+}
