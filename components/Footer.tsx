@@ -15,14 +15,14 @@ export default function Footer() {
             </div>
             <div className="footerHeadContents-right">
               <div className="socialIcon d-flex align-items-center">
-                <i className='cursor-pointer py-2 rounded-circle fb' title='Faceook' style={{width: "50px", height: "50px"}}><RiFacebookCircleFill /></i>
-                <i className='cursor-pointer py-2 rounded-circle tr' title='Twitter' style={{width: "50px", height: "50px"}}><AiFillTwitterCircle /></i>
-                <i className='cursor-pointer py-2 rounded-circle ig' title='Instagram' style={{width: "50px", height: "50px"}}><RiInstagramFill /></i>
-                <i className='cursor-pointer py-2 rounded-circle yt' title='Youtube' style={{width: "50px", height: "50px"}}><RiYoutubeFill /></i>
-                <i className='cursor-pointer py-2 rounded-circle gh' title='Github' style={{width: "50px", height: "50px"}}><RiGithubFill /></i>
-                <i className='cursor-pointer py-2 rounded-circle so' title='Stack Overflow' style={{width: "50px", height: "50px"}}><RiStackOverflowFill /></i>
-                <i className='cursor-pointer py-2 rounded-circle pr' title='Piterest' style={{width: "50px", height: "50px"}}><RiPinterestFill /></i>
-                <i className='cursor-pointer py-2 rounded-circle wa' title='Whatsapp' style={{width: "50px", height: "50px"}}><RiWhatsappFill /></i>
+                <Link className='text-black py-1' style={{width: "40px", height: "40px"}} target='_blank' href="https://www.facebook.com/profile.php?viewas=100000686899395&id=100092505709414"><i className='cursor-pointer py-2 rounded-circle fb' title='Faceook' style={{width: "50px", height: "50px"}}><RiFacebookCircleFill /></i></Link>
+                <Link className='text-black py-1' style={{width: "40px", height: "40px"}} target='_blank' href="https://twitter.com/"><i className='cursor-pointer py-2 rounded-circle tr' title='Twitter' style={{width: "50px", height: "50px"}}><AiFillTwitterCircle /></i></Link>
+                <Link className='text-black py-1' style={{width: "40px", height: "40px"}} target='_blank' href="https://www.instagram.com/"><i className='cursor-pointer py-2 rounded-circle ig' title='Instagram' style={{width: "50px", height: "50px"}}><RiInstagramFill /></i></Link>
+                <Link className='text-black py-1' style={{width: "40px", height: "40px"}} target='_blank' href="https://www.youtube.com/channel/UC2BGHqa8lfMdU9QFq0jMU8A"><i className='cursor-pointer py-2 rounded-circle yt' title='Youtube' style={{width: "50px", height: "50px"}}><RiYoutubeFill /></i></Link>
+                <Link className='text-black py-1' style={{width: "40px", height: "40px"}} target='_blank' href="https://github.com/hasaanmumtaz6"><i className='cursor-pointer py-2 rounded-circle gh' title='Github' style={{width: "50px", height: "50px"}}><RiGithubFill /></i></Link>
+                <Link className='text-black py-1' style={{width: "40px", height: "40px"}} target='_blank' href="https://stackoverflow.com/users/21892135/aio"><i className='cursor-pointer py-2 rounded-circle so' title='Stack Overflow' style={{width: "50px", height: "50px"}}><RiStackOverflowFill /></i></Link>
+                <Link className='text-black py-1' style={{width: "40px", height: "40px"}} target='_blank' href="https://pin.it/6yNvIEi"><i className='cursor-pointer py-2 rounded-circle pr' title='Piterest' style={{width: "50px", height: "50px"}}><RiPinterestFill /></i></Link>
+                <Link className='text-black py-1' style={{width: "40px", height: "40px"}} href="tel:03257390045"><i className='cursor-pointer py-2 rounded-circle wa' title='Whatsapp' style={{width: "50px", height: "50px"}}><RiWhatsappFill /></i></Link>
               </div>
             </div>
           </div>
