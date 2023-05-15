@@ -13,7 +13,7 @@ export default function PopularCourse() {
         <Image src={pic2} alt="designPic" />
         <div className="main-content feature-course">
           <h1>Popular Courses</h1>
-          <div className="card-conatiner d-flex">
+          <div className="popular-card-conatiner d-flex">
             {data.map((user) => (
               <div className="card-box" key={user.price}>
                 <div

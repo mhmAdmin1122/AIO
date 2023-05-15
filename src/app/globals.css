@@ -124,3 +124,10 @@ body::-webkit-scrollbar-thumb {
   width: 66%;
   text-align: justify;
 }
+.testMonialcardBox{
+  align-items: center;
+  justify-content: space-around;
+}
+.testMonialcardBox, .popular-card-conatiner{
+  flex-wrap: wrap;
+}
