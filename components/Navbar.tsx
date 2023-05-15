@@ -13,12 +13,12 @@ export default function Navbar() {
           </Link>
         </div>
         <ul className="navbar-tab-list d-flex align-items-end m-0">
-          <li className="navbarTabs px-4 fs-6 fw-bold">Home</li>
-          <li className="navbarTabs px-4 fs-6 fw-bold">About</li>
-          <li className="navbarTabs px-4 fs-6 fw-bold">Services</li>
-          <li className="navbarTabs px-4 fs-6 fw-bold">Excercise &amp; Quiz</li>
-          <li className="navbarTabs px-4 fs-6 fw-bold">Products</li>
-          <li className="navbarTabs px-4 fs-6 fw-bold">Tools</li>
+          <Link href="/"><li className="navbarTabs px-4 fs-6 fw-bold">Home</li></Link>
+          <Link href="/about"><li className="navbarTabs px-4 fs-6 fw-bold">About</li></Link>
+          <Link href="/services"><li className="navbarTabs px-4 fs-6 fw-bold">Services</li></Link>
+          <Link href="/excerquiz"><li className="navbarTabs px-4 fs-6 fw-bold">Excercise &amp; Quiz</li></Link>
+          <Link href="/"><li className="navbarTabs px-4 fs-6 fw-bold">Products</li></Link>
+          <Link href="/"><li className="navbarTabs px-4 fs-6 fw-bold">Tools</li></Link>
         </ul>
       </nav>
     </>

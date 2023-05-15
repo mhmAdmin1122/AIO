@@ -17,11 +17,11 @@ export default function PopularCourse() {
             {data.map((user) => (
               <div className="card-box" key={user.price}>
                 <div
-                  className="card-content-conatiner card mx-5"
+                  className="card-content-conatiner card mx-5 my-2"
                   style={{ width: "320px" }}
                 >
                   <div className="card-IamgeBox">
-                    <Image src={pic3} alt="popularCourse" />
+                    <Image src={user.image_url} alt="popularCourse" width={320} height={320} />
                   </div>
                   <div className="card-body">
                     <h2 className="fs-4">{user.name}</h2>

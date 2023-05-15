@@ -21,7 +21,7 @@ export default function Post() {
                 <p className="postDesc">{user.description}</p>
                 <button className="learnMorePostBtn btn btn-primary">
                   <Link
-                    href="/"
+                    href="/AboutUs"
                     style={{ color: "#fff", textDecoration: "none" }}
                   >
                     Learn More &rarr;
