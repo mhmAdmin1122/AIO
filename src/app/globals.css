@@ -162,3 +162,16 @@ body::-webkit-scrollbar-thumb {
 .ImageBoxteam img{
   border-radius: 4px 4px 0px 0px;
 }
+.socialIcon i svg{
+  width: 100%;
+  height: 100%;
+}
+
+.fb svg:hover{color: #00abfd;}
+.tr svg:hover{color: #009ef0;}
+.ig svg:hover{color: #df258e;}
+.yt svg:hover{color: #ff0000;}
+.gh svg:hover{color: #464545;}
+.so svg:hover{color: #f3aa23;}
+.pr svg:hover{color: #b9354b;}
+.wa svg:hover{color: #4fe94f;}
