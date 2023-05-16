@@ -38,7 +38,6 @@ export default function Testmonials() {
                     <i
                       className="quoteMark"
                       style={{
-                        width: "100%",
                         display: "flex",
                         alignItems: "center",
                         justifyContent: "flex-end",

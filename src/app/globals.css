@@ -314,9 +314,48 @@ b {
   .ImageBoxFpostSlider img {
     width: 197px !important;
   }
-  .featuredpostcardbody h2{
+  .featuredpostcardbody h2 {
     font-size: 20px;
     font-weight: 600;
     cursor: pointer;
+  }
 }
+@media screen and (max-width: 619px) and (min-width: 481px) {
+  .mobileMenu_Box {
+    display: flex;
+  }
+  .recent-post,
+  .featured-post {
+    padding: 54px;
+  }
+  .slick-slider {
+    padding: 5px 5px 5px 25px !important;
+  }
+  .quoteMark {
+    width: 86% !important;
+  }
+  .feature-course h1 {
+    position: absolute;
+    top: 0.5rem;
+    z-index: 999;
+    left: 25%;
+  }
+  .popular-card-conatiner {
+    justify-content: center;
+  }
+  .team-box {
+    justify-content: center !important;
+  }
+  .footerHeader {
+    display: grid !important;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+  .footerHeadContents-left {
+    font-size: 16px !important;
+    padding: 10px 0px;
+    margin: 4px 0px;
+  }
 }
