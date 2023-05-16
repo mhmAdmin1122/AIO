@@ -9,7 +9,7 @@ export default function Footer() {
     <>
       <div className="footerConatainer">
         <div className="footerBox">
-          <div className="footerHeader d-flex align-items-center bg-secondary bg-gradient justify-between py-2 px-4">
+          <div className="footerHeader align-items-center bg-secondary bg-gradient justify-between py-2 px-4">
             <div className="footerHeadContents-left">
               <h1 className='fs-6 m-0 font-bold text-white cursor-context-menu'>AIO is a famous site to complete your daily requirement</h1>
             </div>

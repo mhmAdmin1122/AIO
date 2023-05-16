@@ -250,6 +250,9 @@ b {
   border: 2px solid rgb(77, 75, 75);
   border-radius: 0px 0px 8px 8px;
 }
+.footerHeader{
+  display: flex;
+}
 @media screen and (max-width: 1035px) and (min-width: 821px) {
   .mobileMenu_Box {
     display: none;
