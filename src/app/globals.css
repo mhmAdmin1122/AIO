@@ -362,7 +362,7 @@ b {
     margin: 4px 0px;
   }
 }
-@media screen and (max-width: 480px) and (min-width: 361px) {
+@media screen and (max-width: 480px) and (min-width: 359px) {
   .navbar-conatiner {
     display: none !important;
   }
