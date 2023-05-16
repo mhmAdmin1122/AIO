@@ -238,9 +238,6 @@ b {
 .mobileMenu_Box {
   display: none;
 }
-.navbar-conatiner {
-  display: none !important;
-}
 .menuMobileTabsList {
   position: absolute;
   display: grid;
@@ -322,7 +319,10 @@ b {
 }
 @media screen and (max-width: 619px) and (min-width: 481px) {
   .mobileMenu_Box {
-    display: flex;
+    display: flex !important;
+  }
+  .navbar-conatiner {
+    display: none !important;
   }
   .recent-post,
   .featured-post {
