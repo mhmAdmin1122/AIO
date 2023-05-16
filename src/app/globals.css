@@ -250,7 +250,7 @@ b {
   border: 2px solid rgb(77, 75, 75);
   border-radius: 0px 0px 8px 8px;
 }
-.footerHeader{
+.footerHeader {
   display: flex;
 }
 @media screen and (max-width: 1035px) and (min-width: 821px) {
@@ -360,5 +360,76 @@ b {
     font-size: 16px !important;
     padding: 10px 0px;
     margin: 4px 0px;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 361px) {
+  .navbar-conatiner {
+    display: none !important;
+  }
+  .mobileMenu_Box {
+    display: flex !important;
+  }
+  .footerHeader {
+    display: grid !important;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+  }
+  .footerHeadContents-left {
+    font-size: 16px !important;
+    padding: 10px 0px;
+    margin: 4px 0px;
+  }
+  .CARDTESTMONIAL {
+    border-radius: 8px !important;
+    width: 400px;
+    height: 410px !important;
+    background: linear-gradient(to right, #3c1053, #ad5389);
+  }
+  .recent-post,
+  .featured-post {
+    padding: 34px;
+  }
+  .slick-slide {
+    outline: none;
+    width: 182px;
+  }
+  .cardBoxSlider,
+  .blogPosrSliderCard,
+  .cardFeutredPostBox,
+  .ImageBoxFpostSlider img {
+    width: 177px !important;
+  }
+  /* .cardImage img, */
+  .cardBlogImageBox img,
+  .ImageBoxFpostSlider img {
+    margin: 0px;
+    width: 182px !important;
+    height: 150px !important;
+    border-radius: 4px 4px 0px 0px;
+  }
+  .cardBody h2 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .cardBody h2 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .cardBody b {
+    font-size: 14px !important;
+  }
+  .cardBody p {
+    font-size: 14px;
+  }
+  .feature-course h1 {
+    position: absolute;
+    top: 0.2rem;
+    z-index: 999;
+    left: 19%;
+  }
+  .team-box{
+    justify-content: center;
   }
 }
