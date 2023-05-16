@@ -3,11 +3,11 @@ import dynamic from "next/dynamic";
 import React from "react";
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 import data from "../public/recentPost.json";
-import Image from "next/image";
+import BlogPostCard from "./BlogPostCard";
 
 const BlogSlider = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 1000,
     slidesToShow: 4,
@@ -45,28 +45,7 @@ const BlogSlider = () => {
     <div className="container">
       <Slider {...settings}>
         {data.map((blogData) => (
-          <div
-            key={blogData.id}
-            className="card blogPosrSliderCard"
-            style={{ width: "300px !important" }}
-          >
-            <div className="cardBlogImageBox ImageBox">
-              <Image
-                src={blogData.image_url}
-                alt="blog-post-pic"
-                width={299}
-                height={200}
-              />
-            </div>
-            <div className="cardBody">
-              <h3>{blogData.name}</h3>
-              <h2>
-                Category:{" "}
-                <b className="fs-4 text-red-500">{blogData.category}</b>
-              </h2>
-              <p>{blogData.description}</p>
-            </div>
-          </div>
+          <BlogPostCard key={blogData.id} {...blogData} />
         ))}
       </Slider>
     </div>

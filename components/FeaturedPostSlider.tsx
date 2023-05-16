@@ -1,12 +1,13 @@
 "use client";
-import dynamic from "next/dynamic";
 import React from "react";
+import dynamic from "next/dynamic";
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
-import data from "../public/ProductSlider.json";
-import SliderCard from "./SliderCard";
-const ProductSlider = () => {
+import data from '../public/featuredPost.json'
+import FeaturedPostCard from "./FeaturedPostCard";
+
+const FeaturedPostSlider = () => {
   var settings = {
-    dots: false,
+    dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 4,
@@ -39,16 +40,15 @@ const ProductSlider = () => {
       },
     ],
   };
-
   return (
     <div className="container">
-      <h2> Responsive </h2>
       <Slider {...settings}>
-        {data.map((prductData) => (
-          <SliderCard key={prductData.id} {...prductData}/>
+        {data.map((featuredPostData)=>(
+            <FeaturedPostCard key={featuredPostData.id} {...featuredPostData}/>
         ))}
       </Slider>
     </div>
   );
 };
-export default ProductSlider;
+
+export default FeaturedPostSlider;

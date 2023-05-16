@@ -197,13 +197,13 @@ body::-webkit-scrollbar-thumb {
   color: #111 !important;
   font-size: 35px !important;
 }
-.cardImage img, .cardBlogImageBox img{
+.cardImage img, .cardBlogImageBox img, .ImageBoxFpostSlider img{
   margin: 0px;
   width: 300px !important;
   height: 230px !important;
   border-radius: 4px 4px 0px 0px;
 }
-.cardBoxSlider, .blogPosrSliderCard{
+.cardBoxSlider, .blogPosrSliderCard, .cardFeutredPostBox, .ImageBoxFpostSlider img{
   width: 300px !important;
 }
 .slick-track{
