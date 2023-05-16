@@ -17,7 +17,7 @@ export default function Navbar() {
           <Link className="text-decoration-none" href="/about"><li className="navbarTabs px-4 fs-6 fw-bold">About</li></Link>
           <Link className="text-decoration-none" href="/services"><li className="navbarTabs px-4 fs-6 fw-bold">Services</li></Link>
           <Link className="text-decoration-none" href="/excerquiz"><li className="navbarTabs px-4 fs-6 fw-bold">Excercise &amp; Quiz</li></Link>
-          <Link className="text-decoration-none" href="/"><li className="navbarTabs px-4 fs-6 fw-bold">Products</li></Link>
+          <Link className="text-decoration-none" href="/product"><li className="navbarTabs px-4 fs-6 fw-bold">Products</li></Link>
           <Link className="text-decoration-none" href="/"><li className="navbarTabs px-4 fs-6 fw-bold">Tools</li></Link>
         </ul>
       </nav>

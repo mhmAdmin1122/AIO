@@ -57,17 +57,20 @@ body::-webkit-scrollbar-thumb {
 }
 .recent-post h1,
 .featured-post h1,
-.feature-course h1, .Testmonials, .teamCompo_Box h1 {
+.feature-course h1,
+.Testmonials,
+.teamCompo_Box h1 {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   cursor: context-menu;
 }
-.Testmonials, .teamCompo_Box h1{
+.Testmonials,
+.teamCompo_Box h1 {
   color: #111;
 }
-.testmonial-box{
+.testmonial-box {
   border-bottom: 2px solid #cacaca;
 }
 .feature-course h1 {
@@ -102,76 +105,121 @@ body::-webkit-scrollbar-thumb {
   cursor: pointer;
 }
 
-.quoteMark img{
+.quoteMark img {
   width: 60px;
   height: 70px;
 }
-.CARDTESTMONIAL{
+.CARDTESTMONIAL {
   border-radius: 41% 59% 47% 53% / 70% 34% 66% 30% !important;
   width: 400px;
   height: 300px !important;
   background: #ad5389;
-  background: -webkit-linear-gradient(to right,
-      #3c1053,
-      #ad5389);
-  background: linear-gradient(to right,
-      #3c1053,
-      #ad5389);
+  background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+  background: linear-gradient(to right, #3c1053, #ad5389);
 }
-.testmonialWriter{
+.testmonialWriter {
   font-size: 14px;
   color: #fff;
   width: 66%;
   text-align: justify;
 }
-.testMonialcardBox{
+.testMonialcardBox {
   align-items: center;
   justify-content: space-around;
 }
-.testMonialcardBox, .popular-card-conatiner{
+.testMonialcardBox,
+.popular-card-conatiner {
   flex-wrap: wrap;
 }
-.cardImage img{
+.cardImage img {
   width: 320px;
   height: 170px;
 }
-.cardBody-team{
+.cardBody-team {
   padding: 2px !important;
 }
-.cardBody-team h2{
+.cardBody-team h2 {
   font-size: 16px;
   font-weight: bold;
 }
-.cardBody-team h3{
+.cardBody-team h3 {
   font-size: 14px;
   font-weight: bold;
   color: #636262;
 }
-.cardBody-team h4{
+.cardBody-team h4 {
   font-size: 13px;
   font-weight: bold;
   color: #636262;
 }
-.moreAboutBtn{
+.moreAboutBtn {
   width: 100%;
   display: grid;
   align-items: center;
   justify-content: center;
   justify-items: center;
 }
-.ImageBoxteam img{
+.ImageBoxteam img {
   border-radius: 4px 4px 0px 0px;
 }
-.socialIcon i svg{
+.socialIcon i svg {
   width: 100%;
   height: 100%;
 }
 
-.fb svg:hover{color: #00abfd;}
-.tr svg:hover{color: #009ef0;}
-.ig svg:hover{color: #df258e;}
-.yt svg:hover{color: #ff0000;}
-.gh svg:hover{color: #464545;}
-.so svg:hover{color: #f3aa23;}
-.pr svg:hover{color: #b9354b;}
-.wa svg:hover{color: #4fe94f;}
+.fb svg:hover {
+  color: #00abfd;
+}
+.tr svg:hover {
+  color: #009ef0;
+}
+.ig svg:hover {
+  color: #df258e;
+}
+.yt svg:hover {
+  color: #ff0000;
+}
+.gh svg:hover {
+  color: #464545;
+}
+.so svg:hover {
+  color: #f3aa23;
+}
+.pr svg:hover {
+  color: #b9354b;
+}
+.wa svg:hover {
+  color: #4fe94f;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #111 !important;
+  font-size: 35px !important;
+}
+.cardImage img, .cardBlogImageBox img{
+  margin: 0px;
+  width: 300px !important;
+  height: 230px !important;
+  border-radius: 4px 4px 0px 0px;
+}
+.cardBoxSlider, .blogPosrSliderCard{
+  width: 300px !important;
+}
+.slick-track{
+  cursor: grab !important;
+}
+b{
+  color: #c9125e;
+}
+.slick-slider{
+  padding: 40px !important;
+}
+.feature-container-course img{
+  width: 100%;
+}
+.feature-course{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
