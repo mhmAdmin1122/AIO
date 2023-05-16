@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <>
-      <nav className="bg-dark navbar-conatiner d-flex  justify-content-between align-items-center py-2 m-0 px-2" style={{width: "100%"}}>
+      <nav className="bg-dark navbar-conatiner justify-content-between align-items-center py-2 m-0 px-2" style={{width: "100%"}}>
         <div className="logo-box d-flex w-10">
           <Link href="/">
             <Image src={logo} alt="logo" className="w-10" />
@@ -18,7 +18,7 @@ export default function Navbar() {
           <Link className="text-decoration-none" href="/services"><li className="navbarTabs px-4 fs-6 fw-bold">Services</li></Link>
           <Link className="text-decoration-none" href="/excerquiz"><li className="navbarTabs px-4 fs-6 fw-bold">Excercise &amp; Quiz</li></Link>
           <Link className="text-decoration-none" href="/product"><li className="navbarTabs px-4 fs-6 fw-bold">Products</li></Link>
-          <Link className="text-decoration-none" href="/"><li className="navbarTabs px-4 fs-6 fw-bold">Tools</li></Link>
+          <Link className="text-decoration-none" href="/tools"><li className="navbarTabs px-4 fs-6 fw-bold">Tools</li></Link>
         </ul>
       </nav>
     </>

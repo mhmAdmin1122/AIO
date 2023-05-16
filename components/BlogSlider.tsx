@@ -24,7 +24,15 @@ const BlogSlider = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 820,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 619,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,

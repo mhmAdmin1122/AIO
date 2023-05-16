@@ -7,7 +7,7 @@ import FeaturedPostCard from "./FeaturedPostCard";
 
 const FeaturedPostSlider = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 4,
@@ -24,7 +24,15 @@ const FeaturedPostSlider = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 820,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 619,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
