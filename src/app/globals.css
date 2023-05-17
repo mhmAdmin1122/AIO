@@ -253,6 +253,22 @@ b {
 .footerHeader {
   display: flex;
 }
+.navbar-conatiner {
+  display: flex;
+}
+.blogPosrSliderCard, .cardFeutredPostBox{
+  width: 242px !important;
+}
+.cardBlogImageBox img, .ImageBoxFpostSlider img{
+  width: 240px !important;
+  height: 180px !important;
+}
+.cardBody h2 {
+  font-size: 16px;
+}
+.featuredpostcardbody h2{
+  font-size: 23px;
+}
 @media screen and (max-width: 1035px) and (min-width: 821px) {
   .mobileMenu_Box {
     display: none;
@@ -429,7 +445,7 @@ b {
     z-index: 999;
     left: 19%;
   }
-  .team-box{
+  .team-box {
     justify-content: center;
   }
 }
