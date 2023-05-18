@@ -335,6 +335,33 @@ b {
   font-size: 24px;
   font-weight: 600;
 }
+.contactUsBox {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+}
+.contactBox h2 {
+  width: 174px;
+  margin: 12px 0px;
+}
+.contactBox p {
+  width: 350px;
+  margin: 12px 0px;
+}
+.contactUsForm input {
+  width: 350px;
+}
+textarea {
+  max-height: 128px;
+  max-width: 350px;
+  min-height: 128px;
+  min-width: 350px;
+}
+.contactBox {
+  width: 367px;
+}
 @media screen and (max-width: 1035px) and (min-width: 821px) {
   .mobileMenu_Box {
     display: none;
@@ -526,6 +553,21 @@ b {
     left: 5.7em;
     z-index: 9999;
     font-size: 14px;
+    font-weight: 600;
+  }
+  .contactUsForm input {
+    width: 300px;
+  }
+  textarea {
+    max-height: 128px;
+    max-width: 300px;
+    min-height: 128px !important;
+    min-width: 300px;
+  }
+  .contactBox p {
+    width: 300px;
+    margin: 12px 0px;
+    font-size: 13px;
     font-weight: 600;
   }
 }
