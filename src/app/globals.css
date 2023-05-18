@@ -256,18 +256,84 @@ b {
 .navbar-conatiner {
   display: flex;
 }
-.blogPosrSliderCard, .cardFeutredPostBox{
+.blogPosrSliderCard,
+.cardFeutredPostBox {
   width: 242px !important;
 }
-.cardBlogImageBox img, .ImageBoxFpostSlider img{
+.cardBlogImageBox img,
+.ImageBoxFpostSlider img {
   width: 240px !important;
   height: 180px !important;
 }
 .cardBody h2 {
   font-size: 16px;
 }
-.featuredpostcardbody h2{
+.featuredpostcardbody h2 {
   font-size: 23px;
+}
+.aboutList {
+  top: 3em;
+  border: 2px solid #323232;
+  z-index: 9999;
+  background: #111;
+  color: white;
+  right: -5.4em;
+  width: 17em;
+  padding: 1em;
+  border-radius: 0px 0px 12px 12px;
+}
+.abouttabList a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/* .abouttabList{
+  padding: 0px;
+} */
+.abouttabList a li {
+  padding: 8px 0px;
+}
+.aboutUsPageContent-box h1 {
+  text-align: center;
+  padding: 12px 0px;
+  margin: 0px;
+}
+.aboutUsPageContent-box {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+}
+.detailsAbot-about {
+  width: calc(100% - 20%);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.detailsAbot-about p {
+  text-align: justify;
+}
+.welcomeLine-box {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.welcomeLine-box img {
+  width: 80%;
+  height: 400px;
+  margin: 12px 0px;
+  border-radius: 8px;
+}
+.welcomeLine-box h1 {
+  position: absolute;
+  bottom: 4.9em;
+  left: 7.3em;
+  z-index: 9999;
+  font-size: 24px;
+  font-weight: 600;
 }
 @media screen and (max-width: 1035px) and (min-width: 821px) {
   .mobileMenu_Box {
@@ -447,5 +513,37 @@ b {
   }
   .team-box {
     justify-content: center;
+  }
+  .welcomeLine-box img {
+    width: 89%;
+    height: 207px;
+    margin: 12px 0px;
+    border-radius: 8px;
+  }
+  .welcomeLine-box h1 {
+    position: absolute;
+    bottom: 4.9em;
+    left: 5.7em;
+    z-index: 9999;
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
+
+/* about tab and mobile setup */
+@media screen and (max-width: 650px) and (min-width: 480px) {
+  .welcomeLine-box img {
+    width: 80%;
+    height: 293px;
+    margin: 12px 0px;
+    border-radius: 8px;
+  }
+  .welcomeLine-box h1 {
+    position: absolute;
+    bottom: 4.9em;
+    left: 6.3em;
+    z-index: 9999;
+    font-size: 19px;
+    font-weight: 600;
   }
 }
