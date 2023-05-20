@@ -40,7 +40,7 @@ export default function Navbar() {
                     <Link href="/contactus">
                       <li className="aboutListTabs">Contact Us</li>
                     </Link>
-                    <Link href="/">
+                    <Link href="/disclaimer">
                       <li className="aboutListTabs">Disclaimer</li>
                     </Link>
                     <Link href="/">

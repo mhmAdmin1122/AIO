@@ -362,6 +362,25 @@ textarea {
 .contactBox {
   width: 367px;
 }
+/* Disclaimer */
+.disclaimerBox{
+  width: 100%;
+}
+.dicslaimer-container{
+  width: 70%;
+}
+.disclaimerAbout p{
+  text-align: justify;
+}
+.disclaimerBox, .dicslaimer-container, .disclamerTitlePic{
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: #111;
+  color: #fff;
+}
 @media screen and (max-width: 1035px) and (min-width: 821px) {
   .mobileMenu_Box {
     display: none;
