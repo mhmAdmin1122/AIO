@@ -43,15 +43,15 @@ export default function Navbar() {
                     <Link href="/disclaimer">
                       <li className="aboutListTabs">Disclaimer</li>
                     </Link>
-                    <Link href="/">
+                    <Link href="/privacypolicy">
                       <li className="aboutListTabs">Privacy Policy</li>
                     </Link>
-                    <Link href="/">
+                    <Link href="/termservices">
                       <li className="aboutListTabs">Term & Services</li>
                     </Link>
-                    <Link href="/">
+                    <Link href="/copyrightInfrigments">
                       <li className="aboutListTabs">
-                        Copy Right Infringements
+                        COPYRIGHT INFRINGEMENTS
                       </li>
                     </Link>
                   </ul>
