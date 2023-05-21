@@ -372,7 +372,8 @@ textarea {
 .disclaimerAbout p,
 .term_services-conatiner p,
 .copyrightInfrigmentsBox p,
-.privacyPolicyBox p {
+.privacyPolicyBox p,
+.servicesAboutBox p, .services2AboutBox p  {
   text-align: justify;
 }
 .disclaimerBox,
@@ -381,7 +382,8 @@ textarea {
 .term_services-conatiner,
 .copyrightInfrigments,
 .copyrightInfrigmentsBox,
-.cpyRgtInfrgments-head-line {
+.cpyRgtInfrgments-head-line,
+.ourServicesTitleLine {
   display: grid;
   align-items: center;
   align-content: center;
@@ -425,7 +427,42 @@ textarea {
   color: #fff;
   padding: 6em;
 }
-
+.ourServicesTitleLine {
+  width: 100%;
+}
+.ser1-conatainer, .ser2-conatainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4em;
+  width: 100%;
+}
+.servicesAboutBox, .services2AboutBox {
+  width: 60%;
+}
+.services1-illustarateBox, .services2-illustarateBox {
+  width: 40%;
+}
+.servicesCompo1-box, .servicesCompo2-box{
+  border-bottom: 2px solid #6d6d6d;
+  margin-bottom: 8px;
+}
+.services2AboutBox {
+  margin: 0px 0px 0px 8px;
+}
+.service2AboutHeadingBox{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.service2AboutHeadingBox img{
+  width: 120px;
+  height: 120px;
+  margin: 6px 0px 18px 0px;
+}
+.service2AboutHeadingBox{
+  margin: 6px 0px 8px 4px;
+}
 @media screen and (max-width: 1035px) and (min-width: 821px) {
   .mobileMenu_Box {
     display: none;
