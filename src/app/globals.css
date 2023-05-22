@@ -373,7 +373,8 @@ textarea {
 .term_services-conatiner p,
 .copyrightInfrigmentsBox p,
 .privacyPolicyBox p,
-.servicesAboutBox p, .services2AboutBox p  {
+.servicesAboutBox p,
+.services2AboutBox p {
   text-align: justify;
 }
 .disclaimerBox,
@@ -430,38 +431,52 @@ textarea {
 .ourServicesTitleLine {
   width: 100%;
 }
-.ser1-conatainer, .ser2-conatainer {
+.ser1-conatainer,
+.ser2-conatainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 4em;
   width: 100%;
 }
-.servicesAboutBox, .services2AboutBox {
+.servicesAboutBox,
+.services2AboutBox {
   width: 60%;
 }
-.services1-illustarateBox, .services2-illustarateBox {
+.services1-illustarateBox,
+.services2-illustarateBox {
   width: 40%;
+  margin: 0px 0px 0px 12px;
+  cursor: pointer;
 }
-.servicesCompo1-box, .servicesCompo2-box{
+.servicesCompo1-box,
+.servicesCompo2-box {
   border-bottom: 2px solid #6d6d6d;
   margin-bottom: 8px;
 }
 .services2AboutBox {
   margin: 0px 0px 0px 8px;
 }
-.service2AboutHeadingBox{
+.service2AboutHeadingBox {
   display: flex;
   align-items: flex-end;
   justify-content: center;
 }
-.service2AboutHeadingBox img{
+.service2AboutHeadingBox img {
   width: 120px;
   height: 120px;
   margin: 6px 0px 18px 0px;
 }
-.service2AboutHeadingBox{
+.service2AboutHeadingBox {
   margin: 6px 0px 8px 4px;
+}
+.moreDetailsBox {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  text-align: justify;
+  padding: 30px;
 }
 @media screen and (max-width: 1035px) and (min-width: 821px) {
   .mobileMenu_Box {
@@ -529,6 +544,46 @@ textarea {
     font-weight: 600;
     cursor: pointer;
   }
+  .servicesAboutBox,
+  .services2AboutBox {
+    width: 50%;
+  }
+  .services1-illustarateBox,
+  .services2-illustarateBox {
+    width: 50%;
+    margin: 0px 0px 0px 12px;
+    cursor: pointer;
+  }
+  .servicesAboutBox h1 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .disclaimerAbout p,
+  .term_services-conatiner p,
+  .copyrightInfrigmentsBox p,
+  .privacyPolicyBox p,
+  .servicesAboutBox p,
+  .services2AboutBox p {
+    text-align: justify;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .service2AboutHeadingBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .service2AboutHeadingBox img {
+    width: 48px;
+    height: 48px;
+    margin: 6px 0px 18px 0px;
+  }
+  .service2AboutHeadingBox h1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px;
+  }
 }
 @media screen and (max-width: 619px) and (min-width: 481px) {
   .mobileMenu_Box {
@@ -570,6 +625,39 @@ textarea {
     font-size: 16px !important;
     padding: 10px 0px;
     margin: 4px 0px;
+  }
+  .ser1-conatainer,
+  .ser2-conatainer {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    width: 100%;
+  }
+  .servicesAboutBox,
+  .services2AboutBox {
+    width: 100%;
+  }
+  .services1-illustarateBox,
+  .services2-illustarateBox {
+    width: 100%;
+    margin: 23px 0px 0px 12px;
+    cursor: pointer;
+  }
+  .services1-illustarateBox {
+    display: none;
+  }
+  .services2-illustarateBox img {
+    height: 230px;
+  }
+  .service2AboutHeadingBox img {
+    width: 80px;
+    height: 80px;
+    margin: 0px 4px 0px 0px;
+  }
+  .service2AboutHeadingBox h1 {
+    font-size: 24px;
+    margin: 0px 0px -6px 0px;
   }
 }
 @media screen and (max-width: 480px) and (min-width: 359px) {
@@ -687,6 +775,42 @@ textarea {
   .copyrightInfrigments,
   .privacyPolicyBox {
     padding: 2em;
+  }
+  .ser1-conatainer,
+  .ser2-conatainer {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    width: 100%;
+  }
+  .servicesAboutBox,
+  .services2AboutBox {
+    width: 100%;
+  }
+  .services1-illustarateBox,
+  .services2-illustarateBox {
+    width: 100%;
+    margin: 23px 0px 0px 12px;
+    cursor: pointer;
+  }
+  .services1-illustarateBox {
+    display: none;
+  }
+  .services2-illustarateBox img {
+    height: 230px;
+  }
+  .service2AboutHeadingBox img {
+    width: 60px;
+    height: 60px;
+    margin: 0px 4px 0px 0px;
+  }
+  .service2AboutHeadingBox h1 {
+    font-size: 18px;
+    margin: 0px 0px -6px 0px;
+  }
+  .ourServicesTitleLine h1{
+    margin: 12px 0px 0px 0px;
   }
 }
 
